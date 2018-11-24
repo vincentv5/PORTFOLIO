@@ -1,0 +1,18 @@
+.styling{
+	display: flex;
+	width:60vw;
+	margin: auto;
+	flex-wrap: wrap;
+	
+
+}
+
+.overflow{
+	position: fixed;
+	top: 150px;
+	bottom:0px;
+	overflow-y: scroll;
+	margin-left:19%;
+	border-radius:5px;
+	background-color:darkslategrey;
+}

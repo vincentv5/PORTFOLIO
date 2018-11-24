@@ -1,0 +1,7 @@
+.overflow2{
+	position: fixed;
+	top: 120px;
+	bottom:0px;
+	overflow-y: scroll;
+	margin-left:17%;
+}
