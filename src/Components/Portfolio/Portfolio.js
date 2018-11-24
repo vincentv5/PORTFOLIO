@@ -11,10 +11,10 @@ import "./portfolio.css";
 const Portfolio = () => {
 	  return (
 	
-	<div className="mt3">
-	<h2 className ="tc font mb4">Click on the project name to view the saurce code</h2>
+	<div className="mt4">
+	<h2 className ="tc font mb4">Click on the project test it out</h2>
 	<div className="overflow center">
-		<div className="styling mt2">
+		<div className="styling mt5">
 		
 			<Projectcard name={imags1} value ={"Face recognition app"}/>
 			<Projectcard name={imags2} value ={"CMS project on php"}/>
