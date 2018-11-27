@@ -34,6 +34,7 @@ class App extends React.Component {
 		this.setState({
 			name:e.target.value
 		});
+	
 	}
 	
 	
@@ -42,6 +43,7 @@ class App extends React.Component {
 		this.setState({
 			email:e.target.value
 		});
+		
 	}
 	
 	
@@ -50,29 +52,31 @@ class App extends React.Component {
 			message:e.target.value
 		});	
 		
+		
 	}
 	
 	
 	onSubmitChange=(e)=> {
 		e.preventDefault();
-		
-		fetch('https://guarded-tor-60479.herokuapp.com/mail',{
+		fetch('https://sheltered-ravine-25991.herokuapp.com/mail',{
 			method:"post",
-			headers:{"Content-Type":"application/json"},
+			headers: {"Content-Type":"application/json"},
 			body:JSON.stringify({
-				name:this.state.name,
-				email:this.state.email,
-				message:this.state.message	
+			name:this.state.name,
+			email:this.state.email,
+			message:this.state.message	
 		})
 		})
 		.then(response => console.log(response))
 		.catch(err => console.log(err));
+	
 		this.setState({
-			
 			name:'',
 			email:'',
 			message:''
 		});
+		
+		
 		
 	}
 	
