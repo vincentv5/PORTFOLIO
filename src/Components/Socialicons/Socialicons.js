@@ -10,7 +10,7 @@ const Socialicons = () => {
 			<SocialIcon url="http://twitter.com/jaketrent" style={{ height: 70, width: 70 }} className="grow"/>
 			<SocialIcon url="http://freecodecamp.com/vincent.ebuka.731" style={{ height: 70, width: 70 }} className="grow"/>
 			<SocialIcon url="http://linkedin.com/vincentv5" style={{ height: 70, width: 70 }} className="grow"/>
-			<SocialIcon url="https://www.facebook.com/vincent" style={{ height: 70, width: 70}} className="grow"/>
+			<SocialIcon url="https://www.facebook.com/vincent.ebuka.731" style={{ height: 70, width: 70}} className="grow"/>
 		</div>
 	</div>
 	);
